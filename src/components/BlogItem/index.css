@@ -1,0 +1,59 @@
+/* Write your CSS code here */
+
+.blogItem-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #d3d3d3;
+  margin: 20px;
+  padding: 20px;
+}
+
+.blogItem-image-one {
+  width: 300px;
+  height: 220px;
+  margin-right: 20px;
+}
+
+.blogItem-card-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogItem-topic {
+  font-size: 25px;
+  font-family: Roboto;
+  color: #8e8e8e;
+  font-weight: bold;
+}
+
+.blogItem-title {
+  font-size: 30px;
+  font-family: Roboto;
+  color: #000000;
+  font-weight: bold;
+}
+
+.blogItem-card-two {
+  display: flex;
+  flex-direction: row;
+}
+
+.blogItem-image-two {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-right: 20px;
+  margin-top: 22px;
+}
+
+.blogItem-author {
+  font-size: 25px;
+  font-family: Roboto;
+  color: #8e8e8e;
+  font-weight: bold;
+}
+
+.blogItem-link {
+  text-decoration: none;
+  color: inherit;
+}
